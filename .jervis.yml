@@ -1,0 +1,7 @@
+language: shell
+
+jenkins:
+  collect:
+    html:
+      path: report/**/*
+      reportName: Test HTML Report
